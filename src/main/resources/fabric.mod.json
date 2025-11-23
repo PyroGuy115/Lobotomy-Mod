@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lobotomymod",
+	"version": "${version}",
+	"name": "Lobotomy Mod",
+	"description": "This mod will give you a lobotomy",
+	"authors": [
+		"PyroFromTF2"
+	],
+	"contact": {
+		"homepage": "https://steamcommunity.com/profiles/76561199730023971/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lobotomymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pyro.lobotomymod.LobotomyMod"
+		],
+		"fabric-datagen": [
+			"com.pyro.lobotomymod.LobotomyModDataGenerator"
+		],
+        "client": [
+          "com.pyro.lobotomymod.LobotomyModClient"
+        ]
+	},
+	"mixins": [
+		"lobotomymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
