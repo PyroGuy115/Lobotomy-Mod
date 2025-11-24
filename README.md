@@ -1,1 +1,1 @@
-This is a mod... I think, also pyro likes dudes
+This fun educational mod is a mix of both fun and learning great for all ages! The mod in question contains many fun concepts, including, but not limmited to: dildos, cum, weed, and hitler. All additions this mod adds are not listed so you, the player can discover them on your own! So go fourth and have fun in The Lobotomy Mod!
