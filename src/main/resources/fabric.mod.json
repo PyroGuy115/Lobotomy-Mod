@@ -5,11 +5,12 @@
 	"name": "Lobotomy Mod",
 	"description": "This mod will give you a lobotomy",
 	"authors": [
-		"PyroFromTF2"
+		"PyroFromTF2",
+        "RawChickenEater"
 	],
 	"contact": {
 		"homepage": "https://steamcommunity.com/profiles/76561199730023971/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/PyroGuy115/Lobotomy-Mod"
 	},
 	"license": "MIT",
 	"icon": "assets/lobotomymod/icon.png",
