@@ -8,7 +8,7 @@
   "item.lobotomymod.red_dildo": "Red Dildo",
   "item.lobotomymod.orange_dildo": "Orange Dildo",
   "item.lobotomymod.yellow_dildo": "Yellow Dildo",
-  "item.lobotomymod.lime_dildo": "Lime_Dildo",
+  "item.lobotomymod.lime_dildo": "Lime Dildo",
   "item.lobotomymod.green_dildo": "Green Dildo",
   "item.lobotomymod.cyan_dildo": "Cyan Dildo",
   "item.lobotomymod.light_blue_dildo": "Light Blue Dildo",
@@ -17,8 +17,6 @@
   "item.lobotomymod.magenta_dildo": "Magenta Dildo",
   "item.lobotomymod.pink_dildo": "Pink Dildo",
   "item.lobotomymod.rubber": "Rubber",
-
-  "block.lobotomymod.block_of_hitler": "Block of Hitler",
 
   "itemgroup.lobomotmymod.dildo_group": "Dildos"
 }

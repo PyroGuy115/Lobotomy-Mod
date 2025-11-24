@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "lobotomymod",
-	"version": "${version}",
+	"version": "0.0.1",
 	"name": "Lobotomy Mod",
 	"description": "This mod will give you a lobotomy",
 	"authors": [
