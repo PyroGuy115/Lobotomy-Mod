@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup DILDO_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(LobotomyMod.MOD_ID, "dildo_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DILDO))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_DILDO))
                     .displayName(Text.translatable("itemgroup.lobomotmymod.dildo_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.DILDO);

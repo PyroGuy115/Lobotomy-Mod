@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "lobotomymod:dildo"
+    },
+    "Y": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "pattern": [
+    "XY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lobotomymod:lime_dildo"
+  }
+}

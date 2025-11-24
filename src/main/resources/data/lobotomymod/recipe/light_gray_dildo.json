@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "lobotomymod:dildo"
+    },
+    "Y": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "XY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lobotomymod:light_gray_dildo"
+  }
+}
