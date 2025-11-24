@@ -1,12 +1,14 @@
 package com.pyro.lobotomymod.item;
 
 import com.pyro.lobotomymod.LobotomyMod;
+import com.pyro.lobotomymod.item.custom.CumItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // Dildo Group
     public static final Item DILDO = registerItem("dildo", new Item(new Item.Settings()));
     public static final Item BLACK_DILDO = registerItem("black_dildo", new Item(new Item.Settings()));
     public static final Item BLUE_DILDO = registerItem("blue_dildo", new Item(new Item.Settings()));
@@ -25,6 +27,9 @@ public class ModItems {
     public static final Item WHITE_DILDO = registerItem("white_dildo", new Item(new Item.Settings()));
     public static final Item YELLOW_DILDO = registerItem("yellow_dildo", new Item(new Item.Settings()));
     public static final Item RUBBER = registerItem("rubber", new Item(new Item.Settings()));
+
+    // Custom Dildo Items
+    public static final Item CUM_ITEM = registerItem("cum_item", new CumItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LobotomyMod.MOD_ID, name), item);
