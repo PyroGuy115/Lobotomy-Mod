@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CUM_BLOCK = registerBlock("cum_block",
-            new Block(AbstractBlock.Settings.create().strength(1f)
+            new CumBlock(AbstractBlock.Settings.create().strength(1f)
                     .sounds(BlockSoundGroup.MUD)));
 
     private static Block registerBlock(String name, Block block) {
