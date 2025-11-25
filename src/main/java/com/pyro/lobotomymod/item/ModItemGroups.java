@@ -33,6 +33,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGENTA_DILDO);
                         entries.add(ModItems.PINK_DILDO);
                         entries.add(ModItems.RUBBER);
+                        entries.add(ModItems.CUM_ITEM);
                     }).build());
 
     public static void registerItemGroups() {

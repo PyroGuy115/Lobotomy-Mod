@@ -1,14 +1,22 @@
 package com.pyro.lobotomymod.block;
 
 import com.pyro.lobotomymod.LobotomyMod;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    public static final Block CUM_BLOCK = registerBlock("cum_block",
+            new CumBlock(AbstractBlock.Settings.create().strength(1f)
+                    .sounds(BlockSoundGroup.MUD)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(LobotomyMod.MOD_ID, name), block);
@@ -22,5 +30,8 @@ public class ModBlocks {
     public static void registerModBlocks() {
         LobotomyMod.LOGGER.info("Registering your shity blocks for " + LobotomyMod.MOD_ID);
 
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(ModBlocks.CUM_BLOCK);
+        });
     }
 }
